@@ -1,1 +1,5 @@
-export function CloseButton(){}
+export function CloseButton() {
+  return(
+    <h1>Ola</h1>
+  )
+}
