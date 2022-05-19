@@ -26,11 +26,11 @@ routes.post('/feedbacks', async (req: Request, res: Response) => {
   } catch {
     return res.status(503).json({ message: "action impossible to complete" })
   }
+})
 
   /* 
     return wasCreated || wasSend ? 
       res.status(201).json({ status: wasCreated }) :
       res.status(503).json({ message: "action impossible to complete" })
   */
-})
 
